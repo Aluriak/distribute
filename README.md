@@ -292,3 +292,7 @@ l'appli web et le cron.
   Si elle devient difficile à synchroniser avec les rôles Keycloak
   réellement attribués, un appel à l'API d'administration Keycloak pour
   la dériver automatiquement serait plus robuste.
+
+## Licence
+
+GPLv3 ou ultérieure — voir [`LICENSE`](LICENSE).

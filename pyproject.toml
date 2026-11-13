@@ -3,6 +3,7 @@ name = "echange-billet"
 version = "0.1.0"
 description = "Échange de places de spectacle (CHU de Brest) + répartition initiale par tirage au sort pondéré"
 requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
