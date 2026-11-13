@@ -1,0 +1,17 @@
+# échange-billet + répartition initiale
+#
+# python-keycloak, nicegui et le module interne cdctools (appacl) sont
+# supposés fournis par l'environnement de déploiement du CDC (cf. le
+# squelette d'appli "skel"), pas par ce fichier.
+
+nicegui>=1.4
+pyyaml>=6.0
+
+# IMPORTANT : la dernière version publiée de pulp (4.x au moment où ce
+# dépôt a été créé) a changé d'API de fond en comble (moteur réécrit).
+# Rester sur la branche 2.x, qui a l'API classique utilisée par
+# allocation.py.
+pulp==2.8.0
+
+# tests
+pytest>=7.0
